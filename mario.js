@@ -4,8 +4,8 @@ const pipe = document.querySelector('.pipe')
 const start = document.querySelector('.start')
 const gameOver = document.querySelector('.game-over')
 
-audioStart = new Audio('.musica.mp3')
-audioGameOver = new Audio('.game-over.mp3')
+audioStart = new Audio('musica.mp3')
+audioGameOver = new Audio('game-over.mp3')
 
 
 const startGame = () => {
@@ -20,7 +20,7 @@ const restartGame = () => {
     gameOver.style.display = 'none'
     pipe.style.left = ''
     pipe.style.right = '0'
-    mario.src = './image/mario.gif'
+    mario.src = 'mario.gif'
     mario.style.width = '150px'
     mario.style.bottom = '0'
 
