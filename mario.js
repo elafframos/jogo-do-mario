@@ -4,8 +4,8 @@ const pipe = document.querySelector('.pipe')
 const start = document.querySelector('.start')
 const gameOver = document.querySelector('.game-over')
 
-audioStart = new Audio('./song/musica.mp3')
-audioGameOver = new Audio('./song/game-over.mp3')
+audioStart = new Audio('.musica.mp3')
+audioGameOver = new Audio('.game-over.mp3')
 
 
 const startGame = () => {
